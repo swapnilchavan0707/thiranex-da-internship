@@ -1,0 +1,551 @@
+Customer_ID,Name,Age,Email,Purchase_Amount,Purchase_Date,City,Gender
+CUST_1,Jane Smith,25,,250.5,2024/01/15, Nagpur ,
+CUST_2, Jane Smith ,,john@email.com,0,15/01/2024,Mumbai,Female
+CUST_3,JOHN DOE,,invalid-email,0,,Mumbai,m
+CUST_4, Jane Smith ,-5,invalid-email,250.5,2024/01/15,,f
+CUST_5, Jane Smith ,28,invalid-email,$300,2024-13-45,nagpur,Male
+CUST_6,john doe,30,jane@email.com ,250.5,, Nagpur ,Other
+cust_7 ,JOHN DOE,30,JOHN@EMAIL.COM,,2024-13-45,,m
+CUST_8,JOHN DOE,,jane@email.com ,$300,,,Other
+CUST_9,JOHN DOE,-5,JOHN@EMAIL.COM,250.5,15/01/2024,mumbai,F
+CUST_10, Jane Smith ,200,invalid-email,250.5,2024/01/15,Delhi,
+CUST_11,Jane Smith,30,invalid-email,100,,Mumbai,Female
+CUST_12,JOHN DOE,200,jane@email.com ,,2024-01-15,nagpur,Female
+CUST_13,,28,jane@email.com ,100,2024-01-15, Nagpur ,Other
+cust_14 , Jane Smith ,30,JOHN@EMAIL.COM,250.5,,,f
+CUST_15,john doe,30,,100,, Nagpur ,Other
+CUST_16,Jane Smith,35,JOHN@EMAIL.COM,-20,,mumbai,F
+CUST_17,,30,jane@email.com ,100,2024-01-15,nagpur,f
+CUST_18,,45,jane@email.com ,-20,2024-01-15,,F
+CUST_19,john doe,25,john@email.com,$300,, Nagpur ,Male
+CUST_20,Jane Smith,45,jane@email.com ,0,2024-13-45,Mumbai,
+cust_21 , Jane Smith ,-5,john@email.com,150,2024-13-45,Delhi,Female
+CUST_22,John Doe,-5,,150,15/01/2024,mumbai,Female
+CUST_23,Jane Smith,200,JOHN@EMAIL.COM,250.5,2024/01/15,nagpur,Male
+CUST_24,john doe,45,JOHN@EMAIL.COM,150,2024-13-45,mumbai,M
+CUST_25,,45,john@email.com,-20,2024-01-15,Mumbai,
+CUST_26, Jane Smith ,45,JOHN@EMAIL.COM,,2024-13-45,nagpur,f
+CUST_27,Jane Smith,28,jane@email.com ,100,15/01/2024,mumbai,Male
+cust_28 ,John Doe,30,invalid-email,-20,15/01/2024,MUMBAI,f
+CUST_29,John Doe,25,john@email.com,,2024/01/15,Mumbai,Other
+CUST_30,JOHN DOE,200,JOHN@EMAIL.COM,0,2024-13-45,Mumbai,m
+CUST_31,JOHN DOE,45,john@email.com,150,2024-01-15,Mumbai,Female
+CUST_32,john doe,45,john@email.com,0,2024-01-15,MUMBAI,f
+CUST_33,Jane Smith,35,invalid-email,150,,MUMBAI,F
+CUST_34,Jane Smith,200,jane@email.com ,100,2024-01-15, Nagpur ,f
+cust_35 ,,45,john@email.com,250.5,2024/01/15,,m
+CUST_36,,200,JOHN@EMAIL.COM,100,2024/01/15,Delhi,
+CUST_37,,30,,$300,2024-01-15,mumbai,Female
+CUST_38,JOHN DOE,35,john@email.com,-20,2024-01-15, Nagpur ,Other
+CUST_39,Jane Smith,200,john@email.com,250.5,,mumbai,Male
+CUST_40,Jane Smith,25,invalid-email,250.5,2024-01-15,Delhi,Other
+CUST_41,John Doe,25,jane@email.com ,100,,,m
+cust_42 ,JOHN DOE,-5,,,,MUMBAI,Female
+CUST_43, Jane Smith ,35,JOHN@EMAIL.COM,250.5,2024-01-15,,f
+CUST_44,JOHN DOE,35,,-20,15/01/2024,MUMBAI,
+CUST_45, Jane Smith ,-5,JOHN@EMAIL.COM,150,15/01/2024,Delhi,M
+CUST_46,John Doe,200,jane@email.com ,250.5,,,
+CUST_47,john doe,35,JOHN@EMAIL.COM,150,2024-01-15, Nagpur ,M
+CUST_48,Jane Smith,25,invalid-email,-20,15/01/2024,nagpur,F
+cust_49 ,John Doe,25,invalid-email,100,2024-01-15, Nagpur ,
+CUST_50,Jane Smith,45,invalid-email,-20,2024-01-15,mumbai,Female
+CUST_51,,30,invalid-email,250.5,2024-01-15, Nagpur ,M
+CUST_52,john doe,35,,,2024-13-45,Delhi,Male
+CUST_53,john doe,200,jane@email.com ,0,2024-01-15,Mumbai,Female
+CUST_54,John Doe,-5,JOHN@EMAIL.COM,250.5,2024-13-45,mumbai,Male
+CUST_55,john doe,-5,JOHN@EMAIL.COM,-20,,,
+cust_56 , Jane Smith ,200,invalid-email,0,15/01/2024,mumbai,Male
+CUST_57,john doe,28,invalid-email,-20,15/01/2024,nagpur,M
+CUST_58,Jane Smith,,john@email.com,,15/01/2024,MUMBAI,Female
+CUST_59,Jane Smith,30,jane@email.com ,-20,15/01/2024,,f
+CUST_60,Jane Smith,-5,,100,15/01/2024,mumbai,m
+CUST_61,Jane Smith,35,JOHN@EMAIL.COM,250.5,15/01/2024,,M
+CUST_62, Jane Smith ,30,john@email.com,150,15/01/2024,,M
+cust_63 ,JOHN DOE,35,john@email.com,150,,,f
+CUST_64,,28,JOHN@EMAIL.COM,250.5,2024-01-15,MUMBAI,Female
+CUST_65,John Doe,25,,250.5,2024/01/15,Delhi,Female
+CUST_66,Jane Smith,30,john@email.com,-20,2024-13-45, Nagpur ,Other
+CUST_67,john doe,45,john@email.com,,2024/01/15,,
+CUST_68,Jane Smith,-5,jane@email.com ,250.5,2024/01/15,Mumbai,Male
+CUST_69,john doe,30,,-20,2024-01-15,Delhi,
+cust_70 ,,30,john@email.com,0,2024-01-15,nagpur,f
+CUST_71,,30,,$300,2024-01-15,MUMBAI,
+CUST_72,,,JOHN@EMAIL.COM,-20,15/01/2024,mumbai,f
+CUST_73,john doe,30,invalid-email,250.5,,MUMBAI,Female
+CUST_74,Jane Smith,35,john@email.com,250.5,15/01/2024,mumbai,Male
+CUST_75,,25,jane@email.com ,250.5,,MUMBAI,
+CUST_76, Jane Smith ,28,JOHN@EMAIL.COM,250.5,,mumbai,M
+cust_77 ,john doe,200,,-20,2024/01/15,,F
+CUST_78,john doe,30,JOHN@EMAIL.COM,100,2024/01/15, Nagpur ,Other
+CUST_79,Jane Smith,-5,john@email.com,0,,mumbai,m
+CUST_80,john doe,30,,-20,,mumbai,M
+CUST_81,john doe,-5,invalid-email,150,15/01/2024,Mumbai,Female
+CUST_82,,35,JOHN@EMAIL.COM,250.5,15/01/2024,mumbai,m
+CUST_83,Jane Smith,-5,john@email.com,$300,2024/01/15,Mumbai,F
+cust_84 ,,45,jane@email.com ,$300,2024-01-15,nagpur,F
+CUST_85,,200,,,,,Male
+CUST_86,Jane Smith,25,JOHN@EMAIL.COM,250.5,15/01/2024,Mumbai,m
+CUST_87,John Doe,-5,JOHN@EMAIL.COM,250.5,2024/01/15, Nagpur ,Male
+CUST_88,,-5,invalid-email,,15/01/2024,Delhi,M
+CUST_89, Jane Smith ,25,invalid-email,250.5,,,f
+CUST_90, Jane Smith ,200,jane@email.com ,150,,Mumbai,f
+cust_91 ,john doe,30,jane@email.com ,250.5,2024-13-45,,f
+CUST_92, Jane Smith ,-5,john@email.com,-20,2024-01-15,,m
+CUST_93,john doe,25,john@email.com,-20,2024-13-45,,f
+CUST_94,John Doe,45,jane@email.com ,$300,2024/01/15,nagpur,M
+CUST_95,Jane Smith,45,jane@email.com ,-20,15/01/2024, Nagpur ,Male
+CUST_96,Jane Smith,35,,-20,2024/01/15,MUMBAI,m
+CUST_97,Jane Smith,25,invalid-email,150,,MUMBAI,Male
+cust_98 , Jane Smith ,35,john@email.com,100,2024-13-45,Mumbai,m
+CUST_99,John Doe,45,invalid-email,$300,2024-13-45,,Male
+CUST_100, Jane Smith ,200,invalid-email,,2024-13-45,Mumbai,F
+CUST_101, Jane Smith ,30,jane@email.com ,0,2024/01/15,nagpur,Male
+CUST_102,John Doe,25,,100,,nagpur,f
+CUST_103,John Doe,28,JOHN@EMAIL.COM,,15/01/2024,mumbai,F
+CUST_104,John Doe,45,,250.5,15/01/2024,nagpur,Male
+cust_105 ,John Doe,45,,100,2024/01/15,mumbai,m
+CUST_106,Jane Smith,28,invalid-email,150,2024-13-45, Nagpur ,m
+CUST_107,JOHN DOE,,,,2024-01-15,Mumbai,Other
+CUST_108,JOHN DOE,45,john@email.com,250.5,2024/01/15,Delhi,m
+CUST_109,John Doe,-5,invalid-email,$300,2024/01/15, Nagpur ,Female
+CUST_110,JOHN DOE,200,john@email.com,0,,nagpur,M
+CUST_111,JOHN DOE,25,JOHN@EMAIL.COM,250.5,15/01/2024, Nagpur ,m
+cust_112 ,John Doe,28,invalid-email,-20,2024/01/15, Nagpur ,F
+CUST_113,JOHN DOE,-5,JOHN@EMAIL.COM,250.5,2024/01/15, Nagpur ,Other
+CUST_114, Jane Smith ,28,invalid-email,250.5,2024-13-45,nagpur,m
+CUST_115,john doe,25,jane@email.com ,250.5,2024-13-45,Delhi,Female
+CUST_116,john doe,35,,0,2024-01-15,,f
+CUST_117,John Doe,25,jane@email.com ,250.5,, Nagpur ,F
+CUST_118,Jane Smith,,JOHN@EMAIL.COM,-20,2024-01-15,mumbai,Female
+cust_119 ,John Doe,25,,,2024-13-45,nagpur,f
+CUST_120,Jane Smith,25,invalid-email,,15/01/2024, Nagpur ,
+CUST_121,john doe,,,250.5,2024-13-45,Delhi,
+CUST_122,John Doe,200,john@email.com,150,,,F
+CUST_123,,45,,150,2024-13-45,nagpur,Male
+CUST_124, Jane Smith ,25,john@email.com,250.5,,MUMBAI,M
+CUST_125,JOHN DOE,,,250.5,,,Other
+cust_126 ,Jane Smith,-5,john@email.com,-20,,mumbai,M
+CUST_127,,35,JOHN@EMAIL.COM,0,, Nagpur ,Female
+CUST_128,JOHN DOE,35,jane@email.com ,$300,,Delhi,f
+CUST_129,JOHN DOE,25,invalid-email,,15/01/2024,MUMBAI,M
+CUST_130,John Doe,200,,0,2024-01-15,Delhi,f
+CUST_131,JOHN DOE,200,jane@email.com ,100,2024/01/15,MUMBAI,f
+CUST_132, Jane Smith ,-5,invalid-email,,2024-01-15,nagpur,Female
+cust_133 ,,25,invalid-email,0,,MUMBAI,Female
+CUST_134,JOHN DOE,35,john@email.com,,15/01/2024,mumbai,Female
+CUST_135,John Doe,200,JOHN@EMAIL.COM,$300,2024-13-45,mumbai,M
+CUST_136, Jane Smith ,25,JOHN@EMAIL.COM,100,15/01/2024,Mumbai,
+CUST_137,john doe,28,jane@email.com ,150,,mumbai,Female
+CUST_138,,200,JOHN@EMAIL.COM,150,15/01/2024,,Other
+CUST_139,JOHN DOE,,,$300,15/01/2024,MUMBAI,M
+cust_140 ,John Doe,28,JOHN@EMAIL.COM,-20,,mumbai,Female
+CUST_141,john doe,45,jane@email.com ,100,15/01/2024,nagpur,m
+CUST_142,john doe,200,JOHN@EMAIL.COM,250.5,2024/01/15,Delhi,f
+CUST_143,Jane Smith,35,,0,2024/01/15,Delhi,Other
+CUST_144, Jane Smith ,30,john@email.com,100,15/01/2024,Mumbai,Female
+CUST_145,JOHN DOE,28,jane@email.com ,-20,2024-13-45,Delhi,F
+CUST_146,John Doe,45,john@email.com,-20,,MUMBAI,f
+cust_147 ,Jane Smith,-5,john@email.com,$300,2024/01/15,Mumbai,f
+CUST_148, Jane Smith ,-5,john@email.com,,2024-13-45,MUMBAI,Female
+CUST_149,Jane Smith,35,invalid-email,100,15/01/2024,nagpur,
+CUST_150,,200,invalid-email,0,2024-13-45,Mumbai,Male
+CUST_151, Jane Smith ,25,john@email.com,100,2024-01-15, Nagpur ,
+CUST_152, Jane Smith ,200,jane@email.com ,250.5,2024/01/15,,Female
+CUST_153,JOHN DOE,35,,,15/01/2024,,f
+cust_154 , Jane Smith ,-5,,0,,MUMBAI,Other
+CUST_155,Jane Smith,200,JOHN@EMAIL.COM,150,15/01/2024,Delhi,F
+CUST_156, Jane Smith ,-5,jane@email.com ,0,, Nagpur ,Other
+CUST_157,JOHN DOE,28,invalid-email,250.5,15/01/2024,Mumbai,Other
+CUST_158,JOHN DOE,45,john@email.com,$300,2024-13-45, Nagpur ,f
+CUST_159,,25,JOHN@EMAIL.COM,250.5,2024-13-45, Nagpur ,
+CUST_160,Jane Smith,28,,0,2024-13-45,Delhi,F
+cust_161 ,john doe,-5,invalid-email,,2024-01-15,Mumbai,M
+CUST_162,john doe,-5,invalid-email,100,,nagpur,m
+CUST_163, Jane Smith ,30,john@email.com,150,2024-13-45,Delhi,f
+CUST_164,,30,,100,2024-01-15, Nagpur ,Female
+CUST_165,John Doe,28,jane@email.com ,,, Nagpur ,M
+CUST_166, Jane Smith ,,invalid-email,0,15/01/2024,nagpur,m
+CUST_167,,28,john@email.com,-20,2024-01-15, Nagpur ,Female
+cust_168 ,Jane Smith,30,jane@email.com ,100,2024/01/15, Nagpur ,Other
+CUST_169,Jane Smith,-5,,-20,2024-01-15, Nagpur ,Male
+CUST_170,Jane Smith,35,invalid-email,100,2024-01-15,,Female
+CUST_171,Jane Smith,28,jane@email.com ,100,,Delhi,F
+CUST_172,Jane Smith,-5,jane@email.com ,150,15/01/2024,mumbai,F
+CUST_173,,35,jane@email.com ,$300,2024/01/15,Delhi,Male
+CUST_174,,35,invalid-email,$300,2024-13-45,nagpur,M
+cust_175 ,JOHN DOE,30,invalid-email,250.5,2024-13-45, Nagpur ,m
+CUST_176,john doe,28,JOHN@EMAIL.COM,250.5,2024-01-15,Delhi,Female
+CUST_177,Jane Smith,200,,,,,F
+CUST_178,John Doe,25,john@email.com,,,nagpur,M
+CUST_179,,30,jane@email.com ,,2024-13-45,MUMBAI,Male
+CUST_180,John Doe,30,JOHN@EMAIL.COM,250.5,2024/01/15,Delhi,
+CUST_181,John Doe,200,john@email.com,$300,15/01/2024,MUMBAI,f
+cust_182 ,John Doe,25,JOHN@EMAIL.COM,0,2024/01/15, Nagpur ,
+CUST_183,JOHN DOE,-5,invalid-email,-20,15/01/2024,,
+CUST_184,,,jane@email.com ,150,2024-13-45,,F
+CUST_185,John Doe,28,john@email.com,-20,15/01/2024,Delhi,Other
+CUST_186,Jane Smith,,john@email.com,0,,nagpur,Other
+CUST_187, Jane Smith ,-5,john@email.com,150,2024-01-15,nagpur,Male
+CUST_188,John Doe,45,john@email.com,250.5,2024-01-15,,Female
+cust_189 ,JOHN DOE,30,john@email.com,0,2024-13-45,nagpur,Other
+CUST_190,,25,JOHN@EMAIL.COM,,,,
+CUST_191,JOHN DOE,30,jane@email.com ,250.5,2024/01/15,Delhi,Other
+CUST_192,John Doe,35,invalid-email,100,,mumbai,
+CUST_193,,30,invalid-email,-20,2024-01-15,,m
+CUST_194, Jane Smith ,30,invalid-email,$300,2024-01-15,MUMBAI,F
+CUST_195,John Doe,-5,invalid-email,$300,,nagpur,F
+cust_196 ,JOHN DOE,-5,JOHN@EMAIL.COM,250.5,,,Female
+CUST_197,john doe,-5,,150,2024-01-15,,Other
+CUST_198,Jane Smith,,jane@email.com ,$300,2024/01/15,Delhi,Other
+CUST_199,JOHN DOE,35,john@email.com,,2024-13-45,nagpur,f
+CUST_200,,45,,-20,2024-13-45,mumbai,M
+CUST_201,John Doe,45,invalid-email,0,,Delhi,m
+CUST_202,Jane Smith,-5,,,2024-13-45,mumbai,F
+cust_203 ,John Doe,25,jane@email.com ,250.5,2024-01-15,Delhi,m
+CUST_204,,,john@email.com,,2024-01-15,nagpur,F
+CUST_205,John Doe,200,john@email.com,0,,Mumbai,m
+CUST_206,john doe,25,jane@email.com ,250.5,,nagpur,Male
+CUST_207,Jane Smith,28,jane@email.com ,250.5,,nagpur,
+CUST_208,Jane Smith,28,invalid-email,250.5,2024/01/15,mumbai,F
+CUST_209,,25,john@email.com,100,2024-13-45,mumbai,m
+cust_210 ,john doe,-5,,250.5,,nagpur,Other
+CUST_211,JOHN DOE,200,JOHN@EMAIL.COM,100,15/01/2024,nagpur,M
+CUST_212,John Doe,200,JOHN@EMAIL.COM,100,15/01/2024,nagpur,Male
+CUST_213, Jane Smith ,,jane@email.com ,250.5,2024-01-15,mumbai,Male
+CUST_214,John Doe,200,invalid-email,250.5,2024-13-45,nagpur,M
+CUST_215,John Doe,28,JOHN@EMAIL.COM,150,,nagpur,m
+CUST_216,JOHN DOE,35,john@email.com,0,15/01/2024, Nagpur ,Other
+cust_217 ,John Doe,-5,jane@email.com ,,2024-13-45,Mumbai,Female
+CUST_218,john doe,200,,,2024-01-15,MUMBAI,M
+CUST_219,john doe,,jane@email.com ,0,2024/01/15,Mumbai,m
+CUST_220,Jane Smith,28,,-20,2024-13-45, Nagpur ,M
+CUST_221,,35,jane@email.com ,-20,2024-13-45,MUMBAI,M
+CUST_222, Jane Smith ,30,jane@email.com ,100,2024/01/15,Delhi,F
+CUST_223,John Doe,30,jane@email.com ,100,2024-13-45,nagpur,m
+cust_224 ,John Doe,35,,250.5,2024-01-15, Nagpur ,Female
+CUST_225,JOHN DOE,28,,$300,2024-01-15,Delhi,
+CUST_226,,,jane@email.com ,250.5,2024/01/15,nagpur,F
+CUST_227,john doe,35,JOHN@EMAIL.COM,100,,mumbai,M
+CUST_228, Jane Smith ,-5,invalid-email,,15/01/2024,,
+CUST_229,Jane Smith,-5,invalid-email,250.5,, Nagpur ,f
+CUST_230,john doe,30,invalid-email,250.5,2024-13-45,mumbai,
+cust_231 ,,200,,250.5,15/01/2024, Nagpur ,M
+CUST_232,Jane Smith,,,250.5,2024/01/15, Nagpur ,M
+CUST_233,JOHN DOE,30,JOHN@EMAIL.COM,250.5,2024/01/15,mumbai,Other
+CUST_234,JOHN DOE,200,invalid-email,0,15/01/2024,MUMBAI,m
+CUST_235,John Doe,200,invalid-email,100,2024-01-15,Mumbai,m
+CUST_236,,45,jane@email.com ,150,15/01/2024,nagpur,F
+CUST_237, Jane Smith ,-5,,250.5,2024-13-45, Nagpur ,Female
+cust_238 ,Jane Smith,28,invalid-email,150,2024-01-15,nagpur,F
+CUST_239,john doe,25,JOHN@EMAIL.COM,250.5,2024/01/15,,Male
+CUST_240,,28,JOHN@EMAIL.COM,0,15/01/2024,mumbai,M
+CUST_241,,25,invalid-email,,,nagpur,
+CUST_242,JOHN DOE,35,,150,,mumbai,f
+CUST_243,John Doe,-5,JOHN@EMAIL.COM,,2024-13-45,nagpur,M
+CUST_244,John Doe,200,jane@email.com ,-20,,Mumbai,M
+cust_245 ,Jane Smith,,JOHN@EMAIL.COM,100,15/01/2024,Mumbai,F
+CUST_246,JOHN DOE,25,john@email.com,100,15/01/2024,Mumbai,f
+CUST_247,,28,john@email.com,$300,,Mumbai,f
+CUST_248, Jane Smith ,200,,0,15/01/2024,Mumbai,f
+CUST_249,JOHN DOE,25,invalid-email,,2024-13-45,Mumbai,F
+CUST_250,Jane Smith,25,,250.5,2024-01-15,mumbai,M
+CUST_251,Jane Smith,45,,250.5,2024-13-45, Nagpur ,F
+cust_252 ,JOHN DOE,25,,100,2024-13-45,nagpur,m
+CUST_253,Jane Smith,,,150,15/01/2024,Mumbai,m
+CUST_254,JOHN DOE,-5,jane@email.com ,250.5,2024-01-15,mumbai,F
+CUST_255,john doe,,jane@email.com ,250.5,15/01/2024,mumbai,f
+CUST_256,JOHN DOE,30,JOHN@EMAIL.COM,$300,2024/01/15,mumbai,Other
+CUST_257,JOHN DOE,200,john@email.com,,15/01/2024, Nagpur ,M
+CUST_258,Jane Smith,-5,,100,15/01/2024,nagpur,F
+cust_259 ,Jane Smith,45,JOHN@EMAIL.COM,250.5,15/01/2024, Nagpur ,F
+CUST_260,John Doe,-5,john@email.com,100,2024-01-15,MUMBAI,F
+CUST_261,John Doe,-5,invalid-email,250.5,15/01/2024,Delhi,Other
+CUST_262,john doe,28,jane@email.com ,$300,2024-01-15,mumbai,Other
+CUST_263,John Doe,-5,john@email.com,250.5,,MUMBAI,Male
+CUST_264,JOHN DOE,45,invalid-email,100,2024/01/15,,m
+CUST_265,Jane Smith,,john@email.com,-20,2024-01-15,Mumbai,
+cust_266 ,John Doe,-5,jane@email.com ,150,,Delhi,f
+CUST_267,John Doe,35,jane@email.com ,100,2024-01-15,Mumbai,Female
+CUST_268,john doe,200,JOHN@EMAIL.COM,,2024-01-15, Nagpur ,Other
+CUST_269,,-5,,250.5,2024/01/15,Delhi,
+CUST_270,john doe,200,john@email.com,250.5,2024-13-45,nagpur,Other
+CUST_271,JOHN DOE,35,john@email.com,250.5,2024-13-45,MUMBAI,f
+CUST_272,Jane Smith,35,invalid-email,150,2024-01-15,nagpur,Female
+cust_273 ,john doe,200,jane@email.com ,$300,15/01/2024, Nagpur ,Male
+CUST_274,John Doe,25,john@email.com,-20,,Mumbai,F
+CUST_275,Jane Smith,30,jane@email.com ,0,15/01/2024,Delhi,Male
+CUST_276,Jane Smith,28,john@email.com,150,15/01/2024,nagpur,Other
+CUST_277,John Doe,25,JOHN@EMAIL.COM,250.5,2024-01-15,nagpur,Male
+CUST_278,john doe,25,,,2024-01-15,Mumbai,
+CUST_279,John Doe,,john@email.com,150,2024-01-15,Delhi,M
+cust_280 ,,28,jane@email.com ,250.5,2024-01-15,MUMBAI,Other
+CUST_281,Jane Smith,28,JOHN@EMAIL.COM,250.5,2024-13-45,Mumbai,Other
+CUST_282, Jane Smith ,25,john@email.com,0,2024-01-15,nagpur,
+CUST_283, Jane Smith ,-5,invalid-email,,2024-13-45,MUMBAI,m
+CUST_284,JOHN DOE,,,$300,2024-13-45,MUMBAI,Female
+CUST_285,John Doe,,john@email.com,150,2024-01-15,Mumbai,F
+CUST_286,John Doe,35,JOHN@EMAIL.COM,,2024/01/15,nagpur,
+cust_287 ,JOHN DOE,45,invalid-email,$300,, Nagpur ,Female
+CUST_288,JOHN DOE,28,JOHN@EMAIL.COM,,15/01/2024,nagpur,f
+CUST_289,JOHN DOE,25,JOHN@EMAIL.COM,,2024-13-45,mumbai,Female
+CUST_290,Jane Smith,35,invalid-email,100,,Delhi,f
+CUST_291,,200,JOHN@EMAIL.COM,250.5,2024/01/15,,
+CUST_292,John Doe,30,invalid-email,150,15/01/2024, Nagpur ,Other
+CUST_293,Jane Smith,45,john@email.com,,15/01/2024,MUMBAI,Other
+cust_294 ,JOHN DOE,45,invalid-email,150,2024-13-45, Nagpur ,m
+CUST_295,John Doe,45,invalid-email,0,2024-01-15,Delhi,
+CUST_296,Jane Smith,,,,2024/01/15,MUMBAI,f
+CUST_297,,200,invalid-email,250.5,2024-13-45,Delhi,Female
+CUST_298,Jane Smith,45,invalid-email,250.5,2024/01/15,MUMBAI,Female
+CUST_299,,200,john@email.com,250.5,2024-01-15, Nagpur ,f
+CUST_300,JOHN DOE,-5,,150,2024-01-15,MUMBAI,Male
+cust_301 ,,45,jane@email.com ,150,2024-13-45,MUMBAI,m
+CUST_302,John Doe,30,john@email.com,250.5,2024-01-15,mumbai,M
+CUST_303,JOHN DOE,200,john@email.com,150,,nagpur,Other
+CUST_304,John Doe,200,jane@email.com ,250.5,15/01/2024,nagpur,F
+CUST_305, Jane Smith ,30,invalid-email,,2024-13-45,,Female
+CUST_306,john doe,45,JOHN@EMAIL.COM,,2024/01/15,,F
+CUST_307,,30,,100,,mumbai,M
+cust_308 ,john doe,200,JOHN@EMAIL.COM,0,2024-13-45,,
+CUST_309,john doe,30,jane@email.com ,150,2024-01-15,Delhi,F
+CUST_310,,200,john@email.com,250.5,2024-01-15, Nagpur ,M
+CUST_311,JOHN DOE,200,john@email.com,150,2024-01-15,Mumbai,Other
+CUST_312, Jane Smith ,-5,,150,2024-01-15,Delhi,f
+CUST_313,John Doe,25,john@email.com,$300,2024/01/15,Mumbai,Male
+CUST_314,Jane Smith,200,john@email.com,100,,Mumbai,Other
+cust_315 ,John Doe,45,,250.5,15/01/2024,mumbai,Female
+CUST_316,Jane Smith,35,,250.5,2024/01/15,Delhi,M
+CUST_317,John Doe,,jane@email.com ,150,2024/01/15,mumbai,F
+CUST_318,,28,john@email.com,100,15/01/2024,MUMBAI,Female
+CUST_319, Jane Smith ,25,john@email.com,,15/01/2024,Mumbai,Male
+CUST_320,Jane Smith,25,jane@email.com ,250.5,2024-01-15, Nagpur ,f
+CUST_321,JOHN DOE,25,invalid-email,,2024/01/15,,
+cust_322 ,John Doe,-5,invalid-email,100,2024-13-45, Nagpur ,Female
+CUST_323,John Doe,200,invalid-email,,15/01/2024,,
+CUST_324,Jane Smith,-5,jane@email.com ,250.5,15/01/2024,Mumbai,M
+CUST_325,JOHN DOE,200,john@email.com,$300,,Mumbai,Male
+CUST_326,JOHN DOE,45,jane@email.com ,-20,2024-13-45,Mumbai,F
+CUST_327,,-5,jane@email.com ,250.5,2024-13-45,mumbai,Male
+CUST_328,,-5,invalid-email,0,15/01/2024,Delhi,Male
+cust_329 ,,,JOHN@EMAIL.COM,$300,2024-01-15,,m
+CUST_330,,35,john@email.com,-20,,Delhi,Male
+CUST_331,,-5,invalid-email,,2024-13-45,mumbai,Male
+CUST_332,,,JOHN@EMAIL.COM,250.5,15/01/2024,mumbai,Other
+CUST_333, Jane Smith ,30,JOHN@EMAIL.COM,,2024-13-45,nagpur,Female
+CUST_334,JOHN DOE,35,,250.5,, Nagpur ,F
+CUST_335,,45,john@email.com,100,, Nagpur ,Other
+cust_336 ,JOHN DOE,-5,JOHN@EMAIL.COM,250.5,2024/01/15,MUMBAI,Other
+CUST_337,JOHN DOE,28,invalid-email,-20,15/01/2024,mumbai,Female
+CUST_338,john doe,25,,-20,,,Female
+CUST_339, Jane Smith ,30,john@email.com,250.5,2024/01/15,nagpur,M
+CUST_340,,30,jane@email.com ,250.5,2024/01/15,nagpur,Female
+CUST_341,John Doe,45,invalid-email,150,2024-13-45,Delhi,m
+CUST_342,Jane Smith,,JOHN@EMAIL.COM,250.5,2024-13-45, Nagpur ,m
+cust_343 ,John Doe,30,JOHN@EMAIL.COM,,2024/01/15,mumbai,Other
+CUST_344, Jane Smith ,35,invalid-email,0,2024-13-45,MUMBAI,
+CUST_345,Jane Smith,-5,JOHN@EMAIL.COM,-20,,mumbai,M
+CUST_346, Jane Smith ,-5,,-20,2024-01-15,Delhi,
+CUST_347,JOHN DOE,28,john@email.com,250.5,,Mumbai,
+CUST_348,Jane Smith,45,,$300,2024/01/15,mumbai,Other
+CUST_349,JOHN DOE,25,JOHN@EMAIL.COM,250.5,2024/01/15,Delhi,f
+cust_350 ,John Doe,,jane@email.com ,0,,Mumbai,Other
+CUST_351,John Doe,25,john@email.com,,2024-13-45,Mumbai,F
+CUST_352,Jane Smith,30,john@email.com,,2024-13-45,MUMBAI,F
+CUST_353,Jane Smith,45,invalid-email,$300,2024/01/15,,Female
+CUST_354,,28,invalid-email,-20,15/01/2024, Nagpur ,Female
+CUST_355, Jane Smith ,25,jane@email.com ,250.5,2024-13-45,mumbai,f
+CUST_356,,35,john@email.com,150,,Mumbai,Female
+cust_357 , Jane Smith ,-5,jane@email.com ,,2024-13-45,mumbai,F
+CUST_358,,30,invalid-email,0,,,
+CUST_359,JOHN DOE,28,invalid-email,250.5,2024/01/15, Nagpur ,Other
+CUST_360,Jane Smith,25,john@email.com,100,2024-13-45,,Male
+CUST_361,John Doe,,,100,, Nagpur ,m
+CUST_362, Jane Smith ,35,JOHN@EMAIL.COM,100,2024/01/15,nagpur,Male
+CUST_363, Jane Smith ,35,invalid-email,150,15/01/2024, Nagpur ,Male
+cust_364 ,John Doe,25,invalid-email,-20,,MUMBAI,F
+CUST_365,,-5,,250.5,15/01/2024,,Male
+CUST_366, Jane Smith ,25,,$300,15/01/2024,Mumbai,Other
+CUST_367,JOHN DOE,30,jane@email.com ,150,2024-01-15,nagpur,f
+CUST_368,Jane Smith,25,jane@email.com ,150,2024-13-45,MUMBAI,M
+CUST_369,John Doe,35,JOHN@EMAIL.COM,,,mumbai,Female
+CUST_370,Jane Smith,28,JOHN@EMAIL.COM,250.5,15/01/2024,,M
+cust_371 , Jane Smith ,25,john@email.com,150,2024-01-15,Delhi,
+CUST_372, Jane Smith ,-5,jane@email.com ,0,2024/01/15,Delhi,Other
+CUST_373,John Doe,45,invalid-email,250.5,,Mumbai,Other
+CUST_374,JOHN DOE,28,jane@email.com ,0,15/01/2024, Nagpur ,m
+CUST_375,john doe,,invalid-email,-20,2024-13-45,Mumbai,Other
+CUST_376,John Doe,200,,250.5,2024-01-15,Delhi,Female
+CUST_377,john doe,25,jane@email.com ,100,15/01/2024,mumbai,Other
+cust_378 ,,-5,,150,2024-13-45,nagpur,Male
+CUST_379,john doe,28,JOHN@EMAIL.COM,250.5,15/01/2024,nagpur,m
+CUST_380,JOHN DOE,-5,JOHN@EMAIL.COM,-20,,,Female
+CUST_381,,,john@email.com,$300,,nagpur,f
+CUST_382,john doe,35,jane@email.com ,$300,,,f
+CUST_383,,-5,,-20,2024-01-15,,f
+CUST_384,john doe,28,invalid-email,0,,,f
+cust_385 ,JOHN DOE,-5,JOHN@EMAIL.COM,,2024-13-45,Delhi,Male
+CUST_386,john doe,-5,JOHN@EMAIL.COM,,15/01/2024,Delhi,Other
+CUST_387,john doe,-5,invalid-email,0,2024/01/15, Nagpur ,M
+CUST_388,john doe,30,,$300,2024-13-45,MUMBAI,Female
+CUST_389,John Doe,30,,$300,2024-13-45,,Male
+CUST_390,John Doe,35,jane@email.com ,150,,,f
+CUST_391,John Doe,25,jane@email.com ,$300,2024-01-15,MUMBAI,
+cust_392 ,JOHN DOE,-5,john@email.com,250.5,15/01/2024,Mumbai,Other
+CUST_393,,,JOHN@EMAIL.COM,$300,2024-01-15,,M
+CUST_394, Jane Smith ,25,jane@email.com ,250.5,15/01/2024, Nagpur ,
+CUST_395,john doe,,,150,15/01/2024,nagpur,m
+CUST_396,john doe,25,invalid-email,100,2024-01-15,nagpur,
+CUST_397,JOHN DOE,35,,$300,2024-13-45,mumbai,m
+CUST_398,john doe,-5,JOHN@EMAIL.COM,0,15/01/2024,mumbai,m
+cust_399 ,John Doe,-5,,100,2024-01-15,nagpur,f
+CUST_400, Jane Smith ,200,john@email.com,250.5,15/01/2024,nagpur,m
+CUST_401,Jane Smith,,JOHN@EMAIL.COM,0,2024/01/15,Delhi,F
+CUST_402,john doe,25,invalid-email,100,2024-13-45, Nagpur ,Female
+CUST_403,John Doe,25,john@email.com,0,,MUMBAI,Female
+CUST_404,Jane Smith,45,JOHN@EMAIL.COM,250.5,15/01/2024,mumbai,f
+CUST_405, Jane Smith ,45,invalid-email,150,2024/01/15,Delhi,F
+cust_406 ,Jane Smith,30,john@email.com,250.5,,Delhi,
+CUST_407,John Doe,200,john@email.com,250.5,,MUMBAI,Male
+CUST_408,,28,JOHN@EMAIL.COM,250.5,15/01/2024,Delhi,
+CUST_409,,45,jane@email.com ,0,2024-01-15, Nagpur ,Other
+CUST_410,Jane Smith,28,john@email.com,150,15/01/2024,nagpur,Male
+CUST_411,JOHN DOE,30,john@email.com,-20,2024/01/15,,m
+CUST_412,Jane Smith,30,invalid-email,,,MUMBAI,M
+cust_413 ,john doe,30,,$300,15/01/2024,nagpur,Male
+CUST_414,john doe,,JOHN@EMAIL.COM,$300,2024-01-15,nagpur,M
+CUST_415,,,JOHN@EMAIL.COM,250.5,15/01/2024,Mumbai,Female
+CUST_416,JOHN DOE,35,jane@email.com ,250.5,2024-13-45,MUMBAI,M
+CUST_417,John Doe,35,jane@email.com ,$300,2024-01-15,Delhi,Female
+CUST_418,john doe,30,JOHN@EMAIL.COM,,2024/01/15,,F
+CUST_419,,200,jane@email.com ,$300,,MUMBAI,F
+cust_420 , Jane Smith ,25,invalid-email,-20,15/01/2024,Delhi,f
+CUST_421,,,JOHN@EMAIL.COM,,2024-01-15,nagpur,f
+CUST_422,john doe,200,jane@email.com ,250.5,2024-13-45,,m
+CUST_423,john doe,-5,JOHN@EMAIL.COM,100,2024-01-15,Delhi,Male
+CUST_424,,,,0,2024-13-45, Nagpur ,m
+CUST_425,John Doe,,john@email.com,-20,2024/01/15,Delhi,Female
+CUST_426,Jane Smith,35,JOHN@EMAIL.COM,-20,,Mumbai,m
+cust_427 ,john doe,25,john@email.com,150,2024/01/15,nagpur,M
+CUST_428,,25,jane@email.com ,250.5,15/01/2024,Delhi,Female
+CUST_429,,45,john@email.com,250.5,2024-01-15,mumbai,f
+CUST_430,JOHN DOE,28,JOHN@EMAIL.COM,250.5,2024-13-45,mumbai,F
+CUST_431,Jane Smith,28,,-20,2024-13-45,Mumbai,f
+CUST_432, Jane Smith ,28,jane@email.com ,250.5,2024-01-15, Nagpur ,Male
+CUST_433,John Doe,28,JOHN@EMAIL.COM,250.5,2024-01-15,nagpur,Female
+cust_434 , Jane Smith ,-5,jane@email.com ,0,15/01/2024,MUMBAI,Female
+CUST_435,Jane Smith,-5,invalid-email,250.5,2024/01/15,Mumbai,M
+CUST_436,Jane Smith,,john@email.com,,2024-13-45, Nagpur ,Male
+CUST_437,Jane Smith,30,invalid-email,$300,15/01/2024,MUMBAI,F
+CUST_438, Jane Smith ,35,JOHN@EMAIL.COM,100,2024/01/15,mumbai,
+CUST_439,Jane Smith,35,,250.5,15/01/2024,mumbai,Female
+CUST_440,,28,jane@email.com ,,2024-13-45,MUMBAI,Female
+cust_441 , Jane Smith ,,john@email.com,100,2024-01-15,Mumbai,M
+CUST_442,Jane Smith,45,jane@email.com ,-20,2024-01-15,mumbai,m
+CUST_443,,200,JOHN@EMAIL.COM,-20,2024/01/15,nagpur,Other
+CUST_444,JOHN DOE,30,jane@email.com ,-20,,,F
+CUST_445,Jane Smith,,john@email.com,,2024/01/15,Delhi,f
+CUST_446, Jane Smith ,30,JOHN@EMAIL.COM,,,MUMBAI,Male
+CUST_447,john doe,30,jane@email.com ,250.5,15/01/2024,MUMBAI,Female
+cust_448 ,Jane Smith,30,,$300,15/01/2024,mumbai,Female
+CUST_449,john doe,,JOHN@EMAIL.COM,150,2024-13-45,Mumbai,f
+CUST_450,,28,JOHN@EMAIL.COM,250.5,,nagpur,F
+CUST_451,JOHN DOE,35,,-20,2024-13-45,Mumbai,Other
+CUST_452,John Doe,35,invalid-email,0,2024-01-15, Nagpur ,m
+CUST_453,JOHN DOE,28,john@email.com,$300,, Nagpur ,Female
+CUST_454,Jane Smith,30,invalid-email,0,2024/01/15,,Other
+cust_455 ,john doe,200,jane@email.com ,250.5,2024-01-15,mumbai,F
+CUST_456,john doe,25,,250.5,2024-01-15,mumbai,f
+CUST_457, Jane Smith ,,invalid-email,250.5,2024/01/15,mumbai,M
+CUST_458,john doe,25,JOHN@EMAIL.COM,100,2024-01-15,,m
+CUST_459, Jane Smith ,45,jane@email.com ,0,, Nagpur ,Male
+CUST_460,,28,jane@email.com ,$300,2024-13-45,Mumbai,Female
+CUST_461,John Doe,200,invalid-email,150,2024-01-15,,F
+cust_462 ,Jane Smith,,invalid-email,$300,,,M
+CUST_463, Jane Smith ,28,,,15/01/2024,Mumbai,Male
+CUST_464,John Doe,30,john@email.com,,,mumbai,
+CUST_465,john doe,35,invalid-email,-20,2024-13-45,nagpur,F
+CUST_466,john doe,25,invalid-email,150,,Mumbai,F
+CUST_467,John Doe,-5,JOHN@EMAIL.COM,,2024/01/15, Nagpur ,Male
+CUST_468,john doe,-5,jane@email.com ,250.5,2024-13-45,MUMBAI,M
+cust_469 ,,200,john@email.com,$300,15/01/2024,MUMBAI,
+CUST_470,,30,JOHN@EMAIL.COM,0,2024/01/15,Delhi,Other
+CUST_471,John Doe,45,,250.5,,Delhi,Other
+CUST_472, Jane Smith ,25,,100,2024-13-45,,f
+CUST_473, Jane Smith ,30,invalid-email,,15/01/2024,MUMBAI,M
+CUST_474,John Doe,25,invalid-email,250.5,2024/01/15,nagpur,m
+CUST_475, Jane Smith ,200,,250.5,15/01/2024,mumbai,Female
+cust_476 , Jane Smith ,200,invalid-email,100,, Nagpur ,Male
+CUST_477,,45,john@email.com,250.5,15/01/2024,Delhi,f
+CUST_478, Jane Smith ,-5,invalid-email,$300,2024-01-15,nagpur,
+CUST_479,JOHN DOE,30,jane@email.com ,0,2024/01/15, Nagpur ,Male
+CUST_480,Jane Smith,,invalid-email,-20,15/01/2024, Nagpur ,Male
+CUST_481,john doe,-5,JOHN@EMAIL.COM,250.5,,mumbai,M
+CUST_482,JOHN DOE,30,john@email.com,,,,Female
+cust_483 , Jane Smith ,-5,JOHN@EMAIL.COM,250.5,15/01/2024,MUMBAI,m
+CUST_484,,,JOHN@EMAIL.COM,150,,mumbai,Other
+CUST_485,John Doe,35,jane@email.com ,100,2024-13-45,nagpur,F
+CUST_486, Jane Smith ,35,john@email.com,100,2024-13-45,,F
+CUST_487,,45,john@email.com,150,2024-13-45,nagpur,Male
+CUST_488,Jane Smith,35,john@email.com,$300,2024-01-15,,Other
+CUST_489, Jane Smith ,35,john@email.com,250.5,15/01/2024,Delhi,Other
+cust_490 ,John Doe,28,john@email.com,-20,2024-01-15,nagpur,Female
+CUST_491,,25,jane@email.com ,$300,,mumbai,
+CUST_492,,28,invalid-email,150,2024-01-15,,
+CUST_493,,28,JOHN@EMAIL.COM,250.5,,,f
+CUST_494,Jane Smith,45,john@email.com,150,, Nagpur ,M
+CUST_495, Jane Smith ,28,invalid-email,$300,2024/01/15, Nagpur ,Female
+CUST_496,Jane Smith,35,invalid-email,0,2024-13-45,Mumbai,Female
+cust_497 ,john doe,,JOHN@EMAIL.COM,100,,nagpur,M
+CUST_498,john doe,45,jane@email.com ,100,2024/01/15, Nagpur ,Other
+CUST_499, Jane Smith ,45,,,2024-13-45,Mumbai,
+CUST_500,Jane Smith,200,,,,Delhi,
+CUST_211,JOHN DOE,200,JOHN@EMAIL.COM,100,15/01/2024,nagpur,M
+CUST_254,JOHN DOE,-5,jane@email.com ,250.5,2024-01-15,mumbai,F
+CUST_25,,45,john@email.com,-20,2024-01-15,Mumbai,
+cust_266 ,John Doe,-5,jane@email.com ,150,,Delhi,f
+CUST_352,Jane Smith,30,john@email.com,,2024-13-45,MUMBAI,F
+CUST_159,,25,JOHN@EMAIL.COM,250.5,2024-13-45, Nagpur ,
+cust_483 , Jane Smith ,-5,JOHN@EMAIL.COM,250.5,15/01/2024,MUMBAI,m
+CUST_411,JOHN DOE,30,john@email.com,-20,2024/01/15,,m
+CUST_244,John Doe,200,jane@email.com ,-20,,Mumbai,M
+cust_434 , Jane Smith ,-5,jane@email.com ,0,15/01/2024,MUMBAI,Female
+CUST_111,JOHN DOE,25,JOHN@EMAIL.COM,250.5,15/01/2024, Nagpur ,m
+CUST_285,John Doe,,john@email.com,150,2024-01-15,Mumbai,F
+CUST_491,,25,jane@email.com ,$300,,mumbai,
+CUST_60,Jane Smith,-5,,100,15/01/2024,mumbai,m
+CUST_129,JOHN DOE,25,invalid-email,,15/01/2024,MUMBAI,M
+cust_385 ,JOHN DOE,-5,JOHN@EMAIL.COM,,2024-13-45,Delhi,Male
+CUST_288,JOHN DOE,28,JOHN@EMAIL.COM,,15/01/2024,nagpur,f
+CUST_10, Jane Smith ,200,invalid-email,250.5,2024/01/15,Delhi,
+CUST_439,Jane Smith,35,,250.5,15/01/2024,mumbai,Female
+CUST_151, Jane Smith ,25,john@email.com,100,2024-01-15, Nagpur ,
+CUST_185,John Doe,28,john@email.com,-20,15/01/2024,Delhi,Other
+CUST_394, Jane Smith ,25,jane@email.com ,250.5,15/01/2024, Nagpur ,
+CUST_316,Jane Smith,35,,250.5,2024/01/15,Delhi,M
+CUST_74,Jane Smith,35,john@email.com,250.5,15/01/2024,mumbai,Male
+CUST_246,JOHN DOE,25,john@email.com,100,15/01/2024,Mumbai,f
+cust_70 ,,30,john@email.com,0,2024-01-15,nagpur,f
+CUST_205,John Doe,200,john@email.com,0,,Mumbai,m
+CUST_351,John Doe,25,john@email.com,,2024-13-45,Mumbai,F
+cust_336 ,JOHN DOE,-5,JOHN@EMAIL.COM,250.5,2024/01/15,MUMBAI,Other
+CUST_370,Jane Smith,28,JOHN@EMAIL.COM,250.5,15/01/2024,,M
+CUST_97,Jane Smith,25,invalid-email,150,,MUMBAI,Male
+CUST_199,JOHN DOE,35,john@email.com,,2024-13-45,nagpur,f
+CUST_114, Jane Smith ,28,invalid-email,250.5,2024-13-45,nagpur,m
+CUST_318,,28,john@email.com,100,15/01/2024,MUMBAI,Female
+CUST_430,JOHN DOE,28,JOHN@EMAIL.COM,250.5,2024-13-45,mumbai,F
+CUST_9,JOHN DOE,-5,JOHN@EMAIL.COM,250.5,15/01/2024,mumbai,F
+CUST_171,Jane Smith,28,jane@email.com ,100,,Delhi,F
+CUST_180,John Doe,30,JOHN@EMAIL.COM,250.5,2024/01/15,Delhi,
+CUST_384,john doe,28,invalid-email,0,,,f
+CUST_468,john doe,-5,jane@email.com ,250.5,2024-13-45,MUMBAI,M
+cust_133 ,,25,invalid-email,0,,MUMBAI,Female
+CUST_66,Jane Smith,30,john@email.com,-20,2024-13-45, Nagpur ,Other
+cust_14 , Jane Smith ,30,JOHN@EMAIL.COM,250.5,,,f
+CUST_95,Jane Smith,45,jane@email.com ,-20,15/01/2024, Nagpur ,Male
+CUST_410,Jane Smith,28,john@email.com,150,15/01/2024,nagpur,Male
+CUST_27,Jane Smith,28,jane@email.com ,100,15/01/2024,mumbai,Male
+CUST_366, Jane Smith ,25,,$300,15/01/2024,Mumbai,Other
+CUST_256,JOHN DOE,30,JOHN@EMAIL.COM,$300,2024/01/15,mumbai,Other
+CUST_400, Jane Smith ,200,john@email.com,250.5,15/01/2024,nagpur,m
+CUST_33,Jane Smith,35,invalid-email,150,,MUMBAI,F
